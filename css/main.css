@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif
+}
+
+h1{
+   text-align: center;
+}
+
+table{
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 1px solid black;
+    font-weight: normal;
+    cursor: default;
+}
+
+table a{
+    text-decoration: none;
+    color: black;
+}
+
+.headers{
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.buttons{
+    margin-left: 34%;
+    display: inline-block;
+    margin-bottom: 40px
+}
+
+.buttons a{
+    margin-right: 40px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    outline: none;
+}
+
+.buttons a:hover{
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+    transition: 0.4s;
+}
