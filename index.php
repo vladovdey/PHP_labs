@@ -25,7 +25,7 @@
         </tr>
     <?php
         $result = array();
-        $str = file_get_contents('./add.txt');//Reading file
+        $str = file_get_contents('./test.txt');//Reading file
 
         //Array separation on worlds, parts
         function reading($file_str){
@@ -75,7 +75,7 @@
                     .$resultArray[$i]['fouls']. "</th><th>"
                     .$resultArray[$i]['points']. "</th>";
 
-                echo '<th> <a href="/add.php?id='.$i.'">Изменить</a> <a href="/del.php?id='.$i.'">Удалить</a> </th>';
+                echo '<th> <a href="/add.php?id='.$i.'">Изменить</a> <a href="/del.php?id='.$resultArray[$i]['team'].'">Удалить</a> </th>';
 
                 echo "</tr>";
             }
